@@ -1,2 +1,20 @@
+spring:
+  profiles:
+    active: test
+
+---
+spring:
+  profiles: test
+  application:
+    name: test-client
 server:
   port: 8087
+
+---
+spring:
+  profiles: dev
+
+  application:
+    name: dev-client
+server:
+  port: 8088
