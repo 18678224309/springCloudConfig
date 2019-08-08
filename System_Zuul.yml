@@ -1,11 +1,9 @@
 spring:
   profiles:
     active: dev
-
----
 server:
   port: 8787
-
+---
 spring:
   profiles: dev
   application:
